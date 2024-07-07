@@ -27,7 +27,7 @@ live_temp_reading/
 │ └── index.html # HTML template for displaying data
 ├── client.py # Python script to simulate temperature readings
 ├── server.py # Flask server for handling requests and serving data
-├── sensors.db # SQLite database (generated at runtime)
+├── new_sensors.db # SQLite database (generated at runtime)
 └── requirements.txt # Python dependencies
 ```
 
@@ -52,7 +52,7 @@ live_temp_reading/
 - Displays recent sensor readings in a table.
 - Uses Plotly.js to dynamically generate and update a graph showing temperature trends over time.
 
-### Database (`sensors.db`)
+### Database (`new_sensors.db`)
 
 - SQLite database created and managed by SQLAlchemy.
 - Stores sensor readings with columns: `id`, `device_id`, `sensor_id`, `temperature`, and `timestamp`.
